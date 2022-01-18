@@ -58,7 +58,7 @@ struct ContentView: View {
             } message: {
                 Text(secondaryAlertText)
             }
-        }
+        }.navigationViewStyle(StackNavigationViewStyle())
     }
     
     func makeGuess(atIndex index: Int) {
